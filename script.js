@@ -61,7 +61,7 @@ let cardArray = [
     function createBoard(gameBoard, array) { 
     array.forEach((arr, index) => { 
     let img = document.createElement("img"); 
-    img.setAttribute("src", "deck.PNG");
+    img.setAttribute("src", "carsbgnd.PNG");
     img.setAttribute("data-id", index); 
     gameBoard.appendChild(img); 
     })
@@ -89,7 +89,7 @@ let cardArray = [
     this.classList.add("flip"); 
     this.setAttribute("src", cardArray[selected].img); 
     if (cardsId.length === 2) { 
-    setTimeout(checkForMatch, 3000);
+    setTimeout(checkForMatch, 4000);
     } 
     }
     // Check for match
@@ -110,8 +110,8 @@ let cardArray = [
     } 
     else { 
     console.log(imgs)
-    imgs[firstCard].setAttribute("src", "deck.PNG");
-    imgs[secondCard].setAttribute("src", "deck.PNG"); 
+    imgs[firstCard].setAttribute("src", "carsbgnd.PNG");
+    imgs[secondCard].setAttribute("src", "carsbgnd.PNG"); 
    
     imgs[firstCard].classList.remove("flip"); 
     imgs[secondCard].classList.remove("flip");
