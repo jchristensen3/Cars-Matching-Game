@@ -1,0 +1,65 @@
+#bg {
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    min-width: 100%;
+    min-height: 100%;  
+  }
+  
+  h1 {
+    font-size: 50px;
+    color:rgb(253, 251, 252);
+    position: absolute;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+  .gameBoard { 
+    padding-top: 60px;
+    padding-left: 30px;
+    padding-bottom: 60px;
+    display: flex; 
+    flex-wrap: wrap; 
+    margin: 60px auto; 
+    position: absolute;
+    } 
+    
+    .gameBoard img { 
+    display: Flex;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    height: 200px;
+    width: 221.69px;
+    transform-style: preserve-3d; 
+    transition: transform 0.2s;
+    }
+  
+    .audio {
+    display:none
+    }
+    
+    .playAgain { 
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color:rgb(10, 5, 8);
+    font-size: 30px;  
+    }
+    
+    .data{ 
+    position: absolute;
+    justify-content: space-between; 
+    padding: 20px 30px; 
+    font-size: 40px; 
+    } 
+    
+    .data span { 
+    position: absolute;
+    color:rgb(252, 252, 252);
+    font-size: 50px; 
+    }
+
+  
