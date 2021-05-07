@@ -115,10 +115,7 @@ let cardArray = [
    
     imgs[firstCard].classList.remove("flip"); 
     imgs[secondCard].classList.remove("flip");
-  
-    
-    
-    
+
      
     } 
     cardsSelected = []; 
